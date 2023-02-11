@@ -177,7 +177,7 @@
 }
 
 .table P {
-	
+
 	padding: 5%;
 
 }
@@ -185,7 +185,7 @@
 .table div {
 
 	border: 0.5px solid #5e5e5e;
-	background-color:#e9e9e9 ;
+	background-color: #e9e9e9;
 }
 
 .table button {
@@ -197,16 +197,24 @@
 
 }
 
-.table div:hover {
+.table div:hover>p {
 	background-color: orange;
 	padding: 10px;
 }
 
 
-.table p:hover {
-	background-color: transparent;
+.table div:hover>#tableheader {
+	background-color: black;
+
 
 }
+
+.table div:hover>p>button {
+	background-color: white;
+	color: black;
+
+}
+
 
 #tableheader {
 	background-color: #505050;
@@ -227,35 +235,233 @@
 	color: white;
 }
 
-.table2{
+.table2 {
 	width: 70%;
-	margin-top:3% ;
+	margin-top: 3%;
 	text-align: center;
 	display: grid;
 	grid-template-rows: auto;
-	grid-template-columns: 30% 30% 30%;
+	grid-template-columns: auto 30% auto;
 	padding-bottom: 5%;
+	align-content: center;
 }
 
-.table2 h4{
-  padding-top: 8%;
+.table2 h4 {
+
+	font-size: 1rem;
 }
-.table2 p{
+
+.table2 p {
 	padding-top: 5%;
 	font-size: 0.6rem;
 
-  }
-  .table2 hr{
+}
+
+.table2 hr {
 	width: 80%;
 	margin-left: 10%;
 	margin-top: 10%;
 
-  }
-#emty{
+}
+
+.icondivs:hover div>h4 {
+	color: orange;
+}
+
+.icondivs:hover div>i {
+	color: orange;
+}
+
+.icondivs:hover div {
+	border-color: orange;
+}
+
+#emty {
 
 	height: 230px;
-	
+
 	background-color: gray;
+}
+
+.section5 {
+	padding-top: 5%;
+	padding-left: 20%;
+	background-color: white;
+	color: black;
+}
+
+.table3 {
+	width: 70%;
+	margin-top: 3%;
+	text-align: center;
+	display: grid;
+	grid-template-rows: auto;
+	grid-template-columns: 50% 50%;
+	padding-bottom: 5%;
+	align-content: center;
+	grid-column-gap: 5%;
+}
+
+.table3 p {
+	margin-top: 3%;
+	font-size: 1srem;
+}
+
+.table3 i {
+	color: orange;
+}
+
+.table3 button {
+	background-color: orange;
+	color: white;
+	padding: 5%;
+	border: none;
+	border-radius: 20px;
+	margin-top: 8%;
+}
+
+.table3 h4 {
+	margin-bottom: 8%;
+}
+
+.table3 h2 {
+	margin-bottom: 10%;
+}
+
+.section6 {
+	padding-top: 5%;
+	padding-left: 20%;
+	background-color: #f6f6f6;
+	color: black;
+}
+
+.table4 {
+	width: 75%;
+	margin-top: 3%;
+	text-align: center;
+	display: grid;
+	grid-template-rows: auto;
+	grid-template-columns: 33.33% 33.33% 33.33%;
+	padding-bottom: 5%;
+	align-content: center;
+	grid-column-gap: 1%;
+	align-items: center;
+}
+
+.table4 div {
+	margin: 2%;
+	background-color: white;
+	padding: 5%;
+	font-size: 0.8rem;
+}
+
+.table4 button {
+	background-color: orange;
+	color: white;
+	padding: 5%;
+	border: none;
+	border-radius: 20px;
+	margin: 10%;
+	width: 80%;
+}
+
+#empty {
+	width: 80%;
+	border: 1px solid black;
+	padding-top: 70%;
+	background-color: gray;
+	margin-left: 5.5%;
+}
+
+.table4 h3 {
+	margin: 10%;
+}
+
+.table4column:hover {
+	background-color: black;
+}
+
+.table4column:hover >div {
+	background-color: black;
+}
+.table4column:hover div>h3 {
+	color: white;
+}
+
+.table4:hover div>p {
+	color: gray;
+}
+.section7{
+	display: flex;
+}
+.section7 .right{
+	width: 50%;
+	padding:10% 9%;
+	background-color: #434343;
+	color: white;
+}
+.section7 .left{
+	width: 50%;
+	padding:10% 9%;
+	background-color: #565656;
+	color: white;
+}
+.section7 i{
+	color: orange;
+}
+
+.right p{
+	margin-top: 3%;
+}
+.right h2{
+	margin-bottom: 6%;
+}
+.right button{
+	margin-top: 6%;
+	background-color: orange;
+	color: white;
+	padding: 5%;
+	border: none;
+	border-radius: 20px;
+	margin: 10%;
+	width: 50%;
+}
+.left p{
+	margin-top: 3%;
+}
+.left h2{
+	margin-bottom: 6%;
+}
+.left button{
+	margin-top: 6%;
+	background-color: orange;
+	color: white;
+	padding: 5%;
+	border: none;
+	border-radius: 20px;
+	margin: 10%;
+	width: 50%;
+}
+.box{
+	float: right;
+	background-color: #b6b6b6;
+	padding: 13%;
+	padding-top: 18%;
+}
+.contentbox{
+	float: left;
+}
+.box p{
+	text-align: center;
+	background-color: orange;
+	height: 40px;
+	width: 40px;
+	border-radius: 50%;
+	font-size: 0.8rem;
+	padding: 10%  20%;
+	position: relative;
+	top: -100px;
+	left:60px
 }
 
 @media(min-width:1366px) {
