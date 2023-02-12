@@ -18,7 +18,6 @@
 
 .navbar span {
 	color: orange;
-
 }
 
 .navbar a {
@@ -40,11 +39,8 @@
 .rectangle {
 	background-color: #b6b6b6;
 	width: 100%;
-
 	padding-bottom: 8%;
 	;
-
-
 }
 
 .rectangle span {
@@ -68,8 +64,6 @@
 	position: relative;
 	left: 66%;
 	top: -10px;
-
-
 }
 
 .bigcircle {
@@ -83,8 +77,6 @@
 	position: relative;
 	left: 72%;
 	top: -23px;
-
-
 }
 
 .vps {
@@ -94,16 +86,13 @@
 
 .vps p {
 	font-family: sans-serif;
-
 	margin-top: 3%;
-
 	font-size: 0.9rem;
 }
 
 .vps h1 {
 	font-size: 2.2rem;
 	padding: 1% 0% 3% 3%;
-
 	font-family: sans-serif;
 }
 
@@ -125,8 +114,6 @@
 	text-align: center;
 	grid-template-rows: auto;
 	grid-template-columns: 50% 8% 8% 8% 8%;
-
-
 }
 
 .navbar2 input {
@@ -150,7 +137,6 @@
 .section2 {
 	padding-top: 7%;
 	padding-left: 20%;
-
 }
 
 .section4 {
@@ -164,7 +150,6 @@
 	margin-bottom: 1%;
 }
 
-
 .table {
 	width: 70%;
 	margin-top: 3%;
@@ -173,17 +158,13 @@
 	grid-template-rows: auto;
 	grid-template-columns: 25% 25% 25% 25%;
 	padding-bottom: 5%;
-
 }
 
 .table P {
-
 	padding: 5%;
-
 }
 
 .table div {
-
 	border: 0.5px solid #5e5e5e;
 	background-color: #e9e9e9;
 }
@@ -194,7 +175,6 @@
 	padding: 4%;
 	border: none;
 	color: white;
-
 }
 
 .table div:hover>p {
@@ -202,19 +182,14 @@
 	padding: 10px;
 }
 
-
 .table div:hover>#tableheader {
 	background-color: black;
-
-
 }
 
 .table div:hover>p>button {
 	background-color: white;
 	color: black;
-
 }
-
 
 #tableheader {
 	background-color: #505050;
@@ -224,7 +199,6 @@
 }
 
 #tableheader span {
-
 	font-size: 2rem;
 }
 
@@ -247,21 +221,18 @@
 }
 
 .table2 h4 {
-
 	font-size: 1rem;
 }
 
 .table2 p {
 	padding-top: 5%;
 	font-size: 0.6rem;
-
 }
 
 .table2 hr {
 	width: 80%;
 	margin-left: 10%;
 	margin-top: 10%;
-
 }
 
 .icondivs:hover div>h4 {
@@ -277,9 +248,7 @@
 }
 
 #emty {
-
 	height: 230px;
-
 	background-color: gray;
 }
 
@@ -381,9 +350,10 @@
 	background-color: black;
 }
 
-.table4column:hover >div {
+.table4column:hover>div {
 	background-color: black;
 }
+
 .table4column:hover div>h3 {
 	color: white;
 }
@@ -391,32 +361,38 @@
 .table4:hover div>p {
 	color: gray;
 }
-.section7{
+
+.section7 {
 	display: flex;
 }
-.section7 .right{
+
+.section7 .right {
 	width: 50%;
-	padding:10% 9%;
+	padding: 10% 9%;
 	background-color: #434343;
 	color: white;
 }
-.section7 .left{
+
+.section7 .left {
 	width: 50%;
-	padding:10% 9%;
+	padding: 10% 9%;
 	background-color: #565656;
 	color: white;
 }
-.section7 i{
+
+.section7 i {
 	color: orange;
 }
 
-.right p{
+.right p {
 	margin-top: 3%;
 }
-.right h2{
+
+.right h2 {
 	margin-bottom: 6%;
 }
-.right button{
+
+.right button {
 	margin-top: 6%;
 	background-color: orange;
 	color: white;
@@ -426,13 +402,16 @@
 	margin: 10%;
 	width: 50%;
 }
-.left p{
+
+.left p {
 	margin-top: 3%;
 }
-.left h2{
+
+.left h2 {
 	margin-bottom: 6%;
 }
-.left button{
+
+.left button {
 	margin-top: 6%;
 	background-color: orange;
 	color: white;
@@ -442,32 +421,98 @@
 	margin: 10%;
 	width: 50%;
 }
-.box{
+
+.box {
 	float: right;
 	background-color: #b6b6b6;
 	padding: 13%;
 	padding-top: 18%;
 }
-.contentbox{
+
+.contentbox {
 	float: left;
 }
-.box p{
+
+.box p {
 	text-align: center;
 	background-color: orange;
 	height: 40px;
 	width: 40px;
 	border-radius: 50%;
 	font-size: 0.8rem;
-	padding: 10%  20%;
+	padding: 10% 20%;
 	position: relative;
 	top: -100px;
-	left:60px
+	left: 60px
+}
+
+.section8 {
+	justify-content: center;
+	text-align: center;
+	padding-left: 15%;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	background-color: black;
+	color: white;
+}
+
+.table5 {
+	width: 80%;
+	display: grid;
+	grid-template-rows: auto;
+	grid-template-columns: auto auto auto auto;
+}
+
+.table5 h2 {
+	margin-bottom: 10%;
+}
+
+.table5 input {
+	padding: 3%;
+}
+
+.table5 button {
+	padding: 3%;
+	margin-left: 0.5%;
+	background-color: orange;
+	color: white;
+}
+
+#searchbutton {
+	margin-top: 15%;
+}
+
+.table5 p {
+	margin: 4%;
+	font-size: 0.8rem;
+}
+
+.table5 div {
+	text-align: start;
+}
+
+.table5colunm3 div {
+	margin-top: 5%;
+	margin-right: 3%;
+}
+
+.section9 {
+	display: flex;
+	padding: 2% 0%;
+	vertical-align: middle;
+}
+
+.section9 p {
+	margin: 1%;
+}
+
+.section9 button {
+	background-color: green;
+	color: white;
 }
 
 @media(min-width:1366px) {
-
 	.smallcircle {
-
 		width: 18%;
 		padding: 2.2% 0%;
 		padding-bottom: 10%;
@@ -475,7 +520,6 @@
 }
 
 @media(max-width:996px) {
-
 	.smallcircle {
 		font-size: 0.5rem;
 		width: 18%;
@@ -492,13 +536,10 @@
 
 	.logo {
 		width: 1% !important;
-
 	}
-
 }
 
 @media(max-width:768px) {
-
 	.smallcircle {
 		font-size: 0.5rem;
 		width: 18%;
