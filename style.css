@@ -496,20 +496,7 @@
 	margin-right: 3%;
 }
 
-.section9 {
-	display: flex;
-	padding: 2% 0%;
-	vertical-align: middle;
-}
 
-.section9 p {
-	margin: 1%;
-}
-
-.section9 button {
-	background-color: green;
-	color: white;
-}
 
 @media(min-width:1366px) {
 	.smallcircle {
